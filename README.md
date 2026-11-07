@@ -1,5 +1,7 @@
 # Substack Inbox Post Button
 
+**Why:** Substack's text-to-speech ("listen to this post") is only available in the inbox view of a post, not on the regular post page. This extension gives you a one-click way to jump there.
+
 A small Chrome extension that adds an **Open in Inbox** button to Substack posts (`.../p/<slug>`). Clicking it opens the post in the Substack inbox view:
 
 ```
