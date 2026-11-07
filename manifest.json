@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Substack Inbox Post Button",
+  "version": "1.0.0",
+  "description": "Adds a button on Substack posts (/p/...) that opens the post in the Substack inbox view (substack.com/inbox/post/<post_id>).",
+  "content_scripts": [
+    {
+      "matches": ["*://*/p/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
